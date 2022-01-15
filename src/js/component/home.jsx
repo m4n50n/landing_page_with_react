@@ -1,14 +1,20 @@
 import React from "react";
+import MainContent from "./MainContent.jsx";
+import BannerItem from "./BannerItem.jsx";
 
-// Import CSS
 import "../../styles/bootstrap.min.css";
 
 const Home = () => {
 	return (
-		<div>
-			<h1 className="bg-warning text-center mt-5">Hello Rigo!</h1>
-		</div>
+		<>
+			<BannerItem />
+
+			<div className="container">
+				<MainContent />
+			</div>
+		</>
 	);
 };
 
+// Exports
 export default Home;
