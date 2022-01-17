@@ -13,9 +13,9 @@ const MainContent = () => {
 		Inglés: 37,
 	};
 
-	const HtmlContent = [];
+	const AllCoursesArray = [];
 	for (const course in Courses) {
-		HtmlContent.push(
+		AllCoursesArray.push(
 			<div className="col-12 col-md-4 my-2">
 				<CardItem title={course} courses={Courses[course]} />
 			</div>
@@ -29,7 +29,7 @@ const MainContent = () => {
 					<h3>¿Qué tipo de cursos te interesan?</h3>
 				</div>
 			</div>
-			<div className="row">{HtmlContent}</div>
+			<div className="row">{AllCoursesArray}</div>
 		</>
 	);
 };

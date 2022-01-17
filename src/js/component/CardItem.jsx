@@ -6,7 +6,7 @@ import Card from "react-bootstrap/Card";
 const CardItem = (props) => {
 	return (
 		<Card className="bg-dark text-white border-0 card-item shadow-sm">
-			<Card.Img src="https://placeimg.com/500/200/any" />
+			<Card.Img src="https://placeimg.com/500/200/tech" />
 			<Card.ImgOverlay className="d-flex justify-content-start align-items-center">
 				<div className="p-2">
 					<Card.Title className="m-0">{props.title}</Card.Title>
