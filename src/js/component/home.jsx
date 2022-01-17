@@ -1,14 +1,18 @@
 import React from "react";
+import Header from "./header.jsx";
+import Header2 from "./header2.jsx";
 
-// Import CSS
-import "../../styles/bootstrap.min.css";
-
-const Home = () => {
+function Home() {
 	return (
-		<div>
-			<h1 className="bg-warning text-center mt-5">Hello Rigo!</h1>
-		</div>
+		<>
+			<div>
+				<Header />
+			</div>
+			<div>
+				<Header2 />
+			</div>
+		</>
 	);
-};
+}
 
 export default Home;
