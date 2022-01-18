@@ -32,7 +32,7 @@ function Header() {
 							</Nav.Link>
 						</Nav>
 						<Form className="d-flex">
-							<Button variant="outline-success" bg="warning">
+							<Button variant="outline-success">
 								Iniciar Sesion
 							</Button>
 							<FormControl
