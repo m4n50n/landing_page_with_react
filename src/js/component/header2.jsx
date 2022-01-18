@@ -5,10 +5,10 @@ import "../../styles/header2.css";
 function Header2() {
 	return (
 		<>
-			<div class="container-fluid">
-				<div class="row rowheader">
-					<div class="col-1"></div>
-					<div class="col-6 textheader">
+			<div className="container-fluid">
+				<div className="row rowheader">
+					<div className="col-1"></div>
+					<div className="col-6 textheader">
 						<h2>
 							No son solo cursos, es tu plan de estudio personal
 						</h2>
@@ -18,13 +18,13 @@ function Header2() {
 							ruta que te hará crecer como profesional.
 						</p>
 						<br></br>
-						<button class="buttonheader">
+						<button className="buttonheader">
 							Quiero iniciar mi plan
 						</button>
 					</div>
 					<div class="col-5">
 						<iframe
-							class="videoheader"
+							className="videoheader"
 							width="560"
 							height="315"
 							src="https://www.youtube.com/embed/U9hq83ryFj0"
