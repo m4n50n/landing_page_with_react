@@ -24,8 +24,22 @@ body {
 }
 
 .banner-item {
-  background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372);
+  background: #1c3643;
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 25%);
+}
+
+.banner-item img {
+  width: 150px;
+}
+
+.banner-item .nav-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5px;
+  margin: 4px;
+  border-left: 3px solid yellowgreen;
+  background-color: #2e586e;
+  cursor: pointer;
 }
 
 .action-button {

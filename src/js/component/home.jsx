@@ -7,11 +7,11 @@ import "../../styles/bootstrap.min.css";
 const Home = () => {
 	return (
 		<>
-			<BannerItem />
-
 			<div className="container">
 				<MainContent />
 			</div>
+
+			<BannerItem />
 		</>
 	);
 };
