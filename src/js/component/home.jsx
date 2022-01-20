@@ -1,8 +1,11 @@
 import React from "react";
 import Header from "./header.jsx";
 import Header2 from "./header2.jsx";
+import MainContent from "./MainContent.jsx";
+import BannerItem from "./BannerItem.jsx";
+import "../../styles/bootstrap.min.css";
 
-function Home() {
+const Home = () => {
 	return (
 		<>
 			<div>
@@ -11,8 +14,11 @@ function Home() {
 			<div>
 				<Header2 />
 			</div>
-		</>
-	);
-}
+    <div className="container">
+				<MainContent />
+			</div>
+    <BannerItem />
+</>
 
+// Exports
 export default Home;
