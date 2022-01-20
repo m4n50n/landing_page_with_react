@@ -14,11 +14,13 @@ const Home = () => {
 			<div>
 				<Header2 />
 			</div>
-    <div className="container">
+			<div className="container">
 				<MainContent />
 			</div>
-    <BannerItem />
-</>
+			<BannerItem />
+		</>
+	);
+};
 
 // Exports
 export default Home;

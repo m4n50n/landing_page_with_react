@@ -13,21 +13,21 @@ const BannerItem = () => {
 						</div>
 						<div className="col-12 col-md-4">
 							<ul className="navbar-nav">
-								<li className="nav-item">
+								<li key="1" className="nav-item">
 									<span className="pe-5">Inglés</span>
 									<span>◈</span>
 								</li>
-								<li className="nav-item">
+								<li key="2" className="nav-item">
 									<span className="pe-5">
 										Negocios y emprendimiento
 									</span>{" "}
 									<span>◈</span>
 								</li>
-								<li className="nav-item">
+								<li key="3" className="nav-item">
 									<span className="pe-5">Startups</span>{" "}
 									<span>◈</span>
 								</li>
-								<li className="nav-item">
+								<li key="4" className="nav-item">
 									<span className="pe-5">Marketing</span>{" "}
 									<span>◈</span>
 								</li>

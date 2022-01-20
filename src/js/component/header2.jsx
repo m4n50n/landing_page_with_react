@@ -22,16 +22,14 @@ function Header2() {
 							Quiero iniciar mi plan
 						</button>
 					</div>
-					<div class="col-5">
+					<div className="col-5">
 						<iframe
 							className="videoheader"
 							width="560"
 							height="315"
 							src="https://www.youtube.com/embed/U9hq83ryFj0"
 							title="YouTube video player"
-							frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 					</div>
 				</div>
 			</div>
